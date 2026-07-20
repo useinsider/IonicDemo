@@ -1,0 +1,106 @@
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <!-- Header / Logo -->
+    <div class="header">
+      <div class="insider-logo">
+        <img src="assets/insider-logo-read-me.jpg" />
+      </div>
+      <div class="description">
+        <div class="insider-title">[Cordova] Insider SDK</div>
+        <p>This Demo contains simple methods that you can use with the Insider SDK.</p>
+      </div>
+    </div>
+
+    <!-- User Attributes -->
+    <div class="insider-title">User Attributes</div>
+    <ion-button color="dark"expand="block" class="insider-button" (click)="userAttributes()">
+      Set Attributes
+    </ion-button>
+
+    <!-- User Identifiers -->
+    <div class="insider-title">User Identifiers</div>
+    <div class="insider-row">
+      <ion-button color="dark"expand="block" class="insider-button" (click)="login()">Login</ion-button>
+      <ion-button
+        color="danger"
+        expand="block"
+        class="insider-button"
+        (click)="logout()"
+      >
+        Logout
+      </ion-button>
+    </div>
+
+    <!-- Event -->
+    <div class="insider-title">Event</div>
+    <ion-button color="dark"expand="block" class="insider-button" (click)="triggerEvents()">
+      Trigger Events
+    </ion-button>
+
+    <!-- Product -->
+    <div class="insider-title">Product</div>
+    <ion-button color="dark"expand="block" class="insider-button" (click)="createProduct()">
+      Create Product
+    </ion-button>
+
+    <!-- Purchase -->
+    <div class="insider-title">Purchase</div>
+    <div class="insider-row">
+      <div class="insider-col">
+        <ion-button color="dark"expand="block" class="insider-button" (click)="itemAddToCart()">Item Add To Cart</ion-button>
+        <ion-button color="dark"expand="block" class="insider-button" (click)="itemRemoveFromCart()">Item Remove From Cart</ion-button>
+      </div>
+      <div class="insider-col">
+        <ion-button color="dark"expand="block" class="insider-button" (click)="itemPurchase()">Item Purchase</ion-button>
+        <ion-button color="dark"expand="block" class="insider-button" (click)="cartClear()">Cart Clear</ion-button>
+      </div>
+    </div>
+
+    <!-- Smart Recommender -->
+    <div class="insider-title">Smart Recommender</div>
+    <ion-button color="dark"expand="block" class="insider-button" (click)="getSmartRecommendation()">
+      Get Smart Recommender Data
+    </ion-button>
+
+    <!-- Social Proof -->
+    <div class="insider-title">Social Proof</div>
+    <ion-button color="dark"expand="block" class="insider-button" (click)="socialProof()">
+      Trigger Social Proof
+    </ion-button>
+
+    <!-- Page Visit Methods -->
+    <div class="insider-title">Page Visit Methods</div>
+    <div class="insider-row">
+      <div class="insider-col">
+        <ion-button color="dark"expand="block" class="insider-button" (click)="homePage()">Home Page</ion-button>
+        <ion-button color="dark"expand="block" class="insider-button" (click)="productPage()">Product Page</ion-button>
+      </div>
+      <div class="insider-col">
+        <ion-button color="dark"expand="block" class="insider-button" (click)="cartPage()">Cart Page</ion-button>
+        <ion-button color="dark"expand="block" class="insider-button" (click)="categoryPage()">Category Page</ion-button>
+      </div>
+    </div>
+
+    <!-- GDPR -->
+    <div class="insider-title">GDPR</div>
+    <div class="insider-row">
+      <div class="insider-col">
+        <ion-button color="dark"expand="block" class="insider-button" (click)="gdprTrue()">GDPR True</ion-button>
+        <ion-button color="dark"expand="block" class="insider-button" (click)="gdprFalse()">GDPR False</ion-button>
+      </div>
+    </div>
+
+    <!-- Message Center -->
+    <div class="insider-title">Message Center</div>
+    <ion-button color="dark"expand="block" class="insider-button" (click)="getMessageCenterData()">
+      Get Message Center Data
+    </ion-button>
+
+    <!-- Content Optimizer -->
+    <div class="insider-title">Content Optimizer</div>
+    <ion-button color="dark"expand="block" class="insider-button" (click)="contentOptimizer()">
+      Get Variable With Content Optimizer
+    </ion-button>
+
+  </div>
+</ion-content>

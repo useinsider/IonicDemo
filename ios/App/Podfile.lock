@@ -1,0 +1,78 @@
+PODS:
+  - Capacitor (6.2.0):
+    - CapacitorCordova
+  - CapacitorApp (6.0.2):
+    - Capacitor
+  - CapacitorCordova (6.2.0)
+  - CapacitorHaptics (6.0.2):
+    - Capacitor
+  - CapacitorKeyboard (6.0.3):
+    - Capacitor
+  - CapacitorPushNotifications (6.0.4):
+    - Capacitor
+  - CapacitorStatusBar (6.0.2):
+    - Capacitor
+  - CordovaPluginsStatic (6.2.0):
+    - CapacitorCordova
+    - InsiderGeofence (= 1.2.0)
+    - InsiderHybrid (= 1.7.3)
+    - InsiderMobile (= 13.12.1)
+  - InsiderGeofence (1.2.0):
+    - InsiderMobile (>= 13.3.2)
+  - InsiderHybrid (1.7.3)
+  - InsiderMobile (13.12.1)
+  - InsiderMobileAdvancedNotification (2.3.0)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
+  - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorPushNotifications (from `../../node_modules/@capacitor/push-notifications`)"
+  - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+  - CordovaPluginsStatic (from `../capacitor-cordova-ios-plugins`)
+  - InsiderMobileAdvancedNotification
+
+SPEC REPOS:
+  trunk:
+    - InsiderGeofence
+    - InsiderHybrid
+    - InsiderMobile
+    - InsiderMobileAdvancedNotification
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorHaptics:
+    :path: "../../node_modules/@capacitor/haptics"
+  CapacitorKeyboard:
+    :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorPushNotifications:
+    :path: "../../node_modules/@capacitor/push-notifications"
+  CapacitorStatusBar:
+    :path: "../../node_modules/@capacitor/status-bar"
+  CordovaPluginsStatic:
+    :path: "../capacitor-cordova-ios-plugins"
+
+SPEC CHECKSUMS:
+  Capacitor: 05d35014f4425b0740fc8776481f6a369ad071bf
+  CapacitorApp: e1e6b7d05e444d593ca16fd6d76f2b7c48b5aea7
+  CapacitorCordova: b33e7f4aa4ed105dd43283acdd940964374a87d9
+  CapacitorHaptics: 4fc15afe22b123d093e6ace24d95e8e3b1f261b9
+  CapacitorKeyboard: e89189ad398b815b6ff7e52271f0fb4f911a0a0a
+  CapacitorPushNotifications: b3f20973cb167cb8fee622e309ec521134798241
+  CapacitorStatusBar: b16799a26320ffa52f6c8b01737d5a95bbb8f3eb
+  CordovaPluginsStatic: b726c68668f29a3d898a40a5be89e37ed8822a96
+  InsiderGeofence: 659a75238a1319126ce9f8af4e9f3f5a1489266c
+  InsiderHybrid: 790a0596b4e22ccb7ce7bd7eb3a70b890b42cf4f
+  InsiderMobile: 9cd675c9b7a255f1e933795afb02976744330053
+  InsiderMobileAdvancedNotification: f5fb69fc0e68c01cf236bd064fffa31317acddab
+
+PODFILE CHECKSUM: 8c9bb15510c736a2f0d7bb18788e201350695cd4
+
+COCOAPODS: 1.16.2
