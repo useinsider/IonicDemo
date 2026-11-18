@@ -74,7 +74,6 @@ export class HomePage {
 
       window.Insider.setActiveForegroundPushView();
       window.Insider.startTrackingGeofence();
-      window.Insider.enableIDFACollection(true);
       window.Insider.enableLocationCollection(true);
       window.Insider.enableIpCollection(true);
       window.Insider.enableCarrierCollection(true);
